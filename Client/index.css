@@ -1,0 +1,65 @@
+body{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background: rgb(0,130,241);
+    background-image: url('slike/p.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.flex-parent{
+
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 250px;
+    align-content: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(300deg, rgba(255,255,255,0.8799894957983193) 0%, rgba(232,186,143,0.6867121848739496) 45%, rgba(218,173,118,0.6194852941176471) 100%);
+    /*background: rgb(0,0,0);
+background: linear-gradient(25deg, rgba(0,0,0,1) 0%, rgba(255,0,0,0.258140756302521) 50%, rgba(0,0,0,1) 100%);*/
+    padding: 20px; 
+    font-family:georgia;
+    color: black;
+    border-radius: 2%;
+}
+.korime{
+    margin-bottom: 5px;
+}
+
+.korloz{
+    margin-left: 70px;
+}
+.flex-parent h2{
+    padding-top: 0px; 
+    margin-top: 0px;
+}
+label{
+    width: 200px;
+    text-align: right;
+}
+.dugme
+{
+    margin-top: 15px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+    color:black;
+    border: solid black 1px;
+    background-color: white;
+    transition: 300ms;
+    height: 20px;
+}
+.dugme:hover{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}

@@ -1,0 +1,518 @@
+.uvod{
+    align-self: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(300deg, rgba(255,255,255,0.8799894957983193) 0%, rgba(232,186,143,0.6867121848739496) 45%, rgba(218,173,118,0.6194852941176471) 100%);
+    padding: 20px; 
+    font-family:georgia;
+    color: black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    width: 30%;
+}
+.uvod button{
+    margin-top: 5px;
+}
+body
+{
+    background-image: url('slike/m2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.kontejner
+{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/*body button{
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+}*/
+.glavni
+{
+    margin-left: 35px;
+    font-family: georgia;
+    width: 85%;
+    font-size: 14px;
+    margin-top: 120px;
+    background: rgb(0,0,0);
+    color: white;
+    background: rgb(255,255,255);
+    background: linear-gradient(300deg, rgba(255,255,255,0.8799894957983193) 0%, rgba(232,186,143,0.6867121848739496) 45%, rgba(218,173,118,0.6194852941176471) 100%);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*height: 300px;*/
+}
+.divcrtaj{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divclanovi{
+    display: flex;
+    margin-left: 5px;
+    flex-grow: 1;
+}
+.naslov
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+/*.opcije 
+{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}*/
+.ispod
+{
+    margin-left: 5px;
+    text-align: justify;
+    flex-grow: 1;
+}
+.tabeladiv
+{
+    overflow-y:scroll;
+    height: 200px;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+table
+{
+    background-color: black;
+    width: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+.tabella button
+{
+    width: 50%;
+}
+.sel
+{
+    background-color: #daad76;
+    color: black;
+}
+table,tr, td, th{
+    border: 2px solid white;
+}
+table{
+    font-size: 13px;
+    border-collapse: collapse;
+}
+.ravno
+{
+    display: flex;
+}
+.ravno label
+{
+    width:70px;
+    flex-shrink: 0;
+    text-align: right;
+}
+.ravno input{
+    width: 200px;
+    flex-grow: 1;
+}
+.datum input
+{
+    width: 200px;
+}
+
+.unos{
+    margin-left: 5px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    flex-grow: 0;
+    order: -5;
+}
+.unos label{
+    color: black;
+    font-weight: bold;
+}
+.ravno button{
+    justify-content: flex-end;
+    width: 100%;
+}
+.divcb
+{
+    overflow-y:scroll;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.divcb{
+    margin-top: 5px;
+}
+.divcb checkbox{
+    align-content: left;
+}
+.divcb label{
+    width: 100%;
+}
+.ravno{
+    display: flex;
+    justify-content: center;
+}
+.ravno2 
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.ravno2 label
+{
+    margin-right: 5px;
+    width: 45px;
+}
+
+
+.cclan
+{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cclan button
+{
+
+    width: 100%;
+}
+.rukovodilac
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    flex-direction: column;
+    padding: 0px;
+    margin-right: 0px;
+    justify-content: center;
+    text-align: center;
+    order: -1;
+}
+.rukovodilac img{
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 150px;
+    flex-grow: 1;
+}
+.datum{
+    margin-bottom: 5px;
+}
+.unos label{
+    margin-right: 5px;
+}
+
+.unos input{
+    font-size: 13px;
+    font-family: Georgia;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+}
+button{
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.opcije{
+    margin-bottom: 5px;
+}
+.dugmad
+{
+    display: flex;
+    justify-content: space-between;
+}
+select
+{
+    border-radius: 5px;
+}
+.naslov{
+    display: flex;
+    justify-content: space-between;
+}
+.dugmegrafik
+{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 3px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+    transition: 300ms;
+    height: 20px;
+}
+.dugmenazad{
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+    transition: 300ms;
+    height: 20px;
+}
+.dugmegrafik:hover
+{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+.dugmenazad:hover{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+.opcije label{
+    font-family: Georgia;
+    font-weight: bold;
+    color: black;
+}
+.opcije select{
+    font-family: georgia;
+    background-color: black;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; 
+    transition: 300ms;
+}
+  
+  
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
+button:hover{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+
+.tabeladiv button{
+    border-radius: 6px;
+}
+
+tr:hover{
+    background-color: white;
+    color: black;
+}
+.restujdugme
+{
+    margin-left: 1px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+    transition: 500ms;
+    height: 22px;
+}
+.restujdugme:hover
+{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+
+.dodajclanarainu 
+{
+    margin-left: 1px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 12px;
+    transition: 500ms;
+    height: 22px;
+}
+.dodajclanarainu:hover
+{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+.dodajcl:hover
+{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+.izbrisicl{
+    margin-left: 1px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 12px;
+    transition: 500ms;
+    height: 22px;
+}
+.izbrisicl:hover
+
+{
+    color: white;
+    border: solid white 1px;
+    background-color: black;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background: rgb(104, 101, 101);
+    background: linear-gradient(300deg, rgba(255,255,255,0.8799894957983193) 0%, rgba(232,186,143,0.6867121848739496) 45%, rgba(218,173,118,0.6194852941176471) 100%);
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background: rgb(255,255,255);
+    background: linear-gradient(300deg, rgba(255,255,255,1) 0%, rgba(227,144,65,1) 45%, rgba(218,173,118,0.9920343137254902) 100%);
+    width: 650px;
+    height: 400px;
+    max-width: 80%;
+}
+
+.activem
+{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-heder
+{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-heder .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-heder .close-button
+{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.modal-body2{
+    padding: 10px 15px;
+}
+.modal-body
+{
+    padding: 10px 15px;
+}
+.modal-body{
+    font-family: Georgia ;
+    font-weight: bold;
+}
+.modal-body input{
+    width: 90px;
+    font-weight: bold;
+    font-family: Georgia ;
+}
+.dodajcl{
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-family: Georgia;
+    border-radius: 10px;
+    transition: 300ms;
+    height: 20px;
+}
+
+
+.overlay
+{
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,.7);
+    pointer-events: none;
+}
+
+.activeo
+{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.crnidiv
+{
+    background-color: black;
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.grafici
+{
+    margin-right: 25px;
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.ansambldiv
+{
+    font-weight: bold;
+    /*align-items: flex-end;*/
+    text-align: center;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="flex-parent">
+                <h1>Web Projekat</h1>
+                <h2>Kulturno Umetnicka Drustva</h2>
+                <div class="korime">
+                    <label>Korisnickono Ime:</label>
+                    <input type="text" placeholder="Vase korisnicko ime" id="korim">
+                </div>
+                <div class="korloz">
+                    <label>Lozinka:</label>
+                    <input type="password" placeholder="Vasa Lozinka" id="lozinka">
+                </div>
+                <input type="submit" value="Uloguj se" onclick="dog()" class="dugme">
+        </div>
+        <script>
+            function dog()
+            {
+                var ime = document.getElementById("korim").value;
+                var lozinka = document.getElementById("lozinka").value;
+                if(ime == "admin" && lozinka == "admin")
+                {
+                    alert("Uspesno logovanje!")
+                    window.location="Evidencija.html";
+                }
+                else
+                {
+                    alert("Pogresan unos!")
+                }
+        }
+        </script>
+    </body>
+</html>
